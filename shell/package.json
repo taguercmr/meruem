@@ -1,0 +1,14 @@
+{
+  "name": "meruem-shell",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Electron appshell for Meruem (Brackets-compatible)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}

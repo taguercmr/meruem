@@ -1,0 +1,210 @@
+{
+  "name": "brackets-javascript-code-hints",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "brackets-javascript-code-hints",
+      "hasInstallScript": true,
+      "dependencies": {
+        "acorn": "3.3.0",
+        "tern": "0.20.0"
+      }
+    },
+    "node_modules/acorn": {
+      "version": "3.3.0",
+      "resolved": "https://registry.npmjs.org/acorn/-/acorn-3.3.0.tgz",
+      "integrity": "sha512-OLUyIIZ7mF5oaAUT1w0TFqQS81q3saT46x8t7ukpPjMNk+nbs4ZHhs7ToV8EWnLYLepjETXd4XaCE4uxkMeqUw==",
+      "bin": {
+        "acorn": "bin/acorn"
+      },
+      "engines": {
+        "node": ">=0.4.0"
+      }
+    },
+    "node_modules/buffer-shims": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/buffer-shims/-/buffer-shims-1.0.0.tgz",
+      "integrity": "sha512-Zy8ZXMyxIT6RMTeY7OP/bDndfj6bwCan7SS98CEndS6deHwWPpseeHlwarNcBim+etXnF9HBc1non5JgDaJU1g=="
+    },
+    "node_modules/core-util-is": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
+      "integrity": "sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ=="
+    },
+    "node_modules/enhanced-resolve": {
+      "version": "2.2.2",
+      "resolved": "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-2.2.2.tgz",
+      "integrity": "sha512-ZIMb0OgKi1C3249Vh2EYna0Zcsa2YEMm0No2eQimhq8kI3QI0otY/u/TSWwbqlZ6jhoLrspPzHhUZ0aM4GmFFw==",
+      "dependencies": {
+        "graceful-fs": "^4.1.2",
+        "memory-fs": "^0.3.0",
+        "object-assign": "^4.0.1",
+        "tapable": "^0.2.3"
+      },
+      "engines": {
+        "node": ">=0.6"
+      }
+    },
+    "node_modules/errno": {
+      "version": "0.1.4",
+      "resolved": "https://registry.npmjs.org/errno/-/errno-0.1.4.tgz",
+      "integrity": "sha512-B6ww/BgkeBIfyIaOKPMW2zteXdAeXSfOTPv6kGhl3luYw4BOTopQ0EjdGFePGdajvBjLQZq12axGLtHnrp+/Pg==",
+      "dependencies": {
+        "prr": "~0.0.0"
+      },
+      "bin": {
+        "errno": "cli.js"
+      }
+    },
+    "node_modules/glob": {
+      "version": "3.2.11",
+      "resolved": "https://registry.npmjs.org/glob/-/glob-3.2.11.tgz",
+      "integrity": "sha512-hVb0zwEZwC1FXSKRPFTeOtN7AArJcJlI6ULGLtrstaswKNlrTJqAA+1lYlSUop4vjA423xlBzqfVS3iWGlqJ+g==",
+      "deprecated": "Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me",
+      "dependencies": {
+        "inherits": "2",
+        "minimatch": "0.3"
+      },
+      "engines": {
+        "node": "*"
+      }
+    },
+    "node_modules/glob/node_modules/minimatch": {
+      "version": "0.3.0",
+      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-0.3.0.tgz",
+      "integrity": "sha512-WFX1jI1AaxNTZVOHLBVazwTWKaQjoykSzCBNXB72vDTCzopQGtyP91tKdFK5cv1+qMwPyiTu1HqUriqplI8pcA==",
+      "deprecated": "Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue",
+      "dependencies": {
+        "lru-cache": "2",
+        "sigmund": "~1.0.0"
+      },
+      "engines": {
+        "node": "*"
+      }
+    },
+    "node_modules/graceful-fs": {
+      "version": "4.1.6",
+      "resolved": "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.6.tgz",
+      "integrity": "sha512-CWgs7ku1PiRyQqePL0W2z8KDyh3XrNQLLkFOQoKOsvbvz1XpHnh/vhn91FC/0KkR33OQJ/oIHkqxMxU9hBMZjw==",
+      "engines": {
+        "node": ">=0.4.0"
+      }
+    },
+    "node_modules/inherits": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz",
+      "integrity": "sha512-8nWq2nLTAwd02jTqJExUYFSD/fKq6VH9Y/oG2accc/kdI0V98Bag8d5a4gi3XHz73rDWa2PvTtvcWYquKqSENA=="
+    },
+    "node_modules/isarray": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+      "integrity": "sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ=="
+    },
+    "node_modules/lru-cache": {
+      "version": "2.7.3",
+      "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-2.7.3.tgz",
+      "integrity": "sha512-WpibWJ60c3AgAz8a2iYErDrcT2C7OmKnsWhIcHOjkUHFjkXncJhtLxNSqUmxRxRunpb5I8Vprd7aNSd2NtksJQ=="
+    },
+    "node_modules/memory-fs": {
+      "version": "0.3.0",
+      "resolved": "https://registry.npmjs.org/memory-fs/-/memory-fs-0.3.0.tgz",
+      "integrity": "sha512-QTNXnl79X97kZ9jJk/meJrtDuvgvRakX5LU7HZW1L7MsXHuSTwoMIzN9tOLLH3Xfsj/gbsSqX/ovnsqz246zKQ==",
+      "dependencies": {
+        "errno": "^0.1.3",
+        "readable-stream": "^2.0.1"
+      }
+    },
+    "node_modules/minimatch": {
+      "version": "0.2.14",
+      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-0.2.14.tgz",
+      "integrity": "sha512-zZ+Jy8lVWlvqqeM8iZB7w7KmQkoJn8djM585z88rywrEbzoqawVa9FR5p2hwD+y74nfuKOjmNvi9gtWJNLqHvA==",
+      "deprecated": "Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue",
+      "dependencies": {
+        "lru-cache": "2",
+        "sigmund": "~1.0.0"
+      },
+      "engines": {
+        "node": "*"
+      }
+    },
+    "node_modules/object-assign": {
+      "version": "4.1.0",
+      "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz",
+      "integrity": "sha512-Lbc7GfN7XFaK30bzUN3cDYLOkT0dH05S0ax1QikylHUD9+Z9PRF3G1iYwX3kcz+6AlzTFGkUgMxz6l3aUwbwTA==",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/process-nextick-args": {
+      "version": "1.0.7",
+      "resolved": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz",
+      "integrity": "sha512-yN0WQmuCX63LP/TMvAg31nvT6m4vDqJEiiv2CAZqWOGNWutc9DfDk1NPYYmKUFmaVM2UwDowH4u5AHWYP/jxKw=="
+    },
+    "node_modules/prr": {
+      "version": "0.0.0",
+      "resolved": "https://registry.npmjs.org/prr/-/prr-0.0.0.tgz",
+      "integrity": "sha512-LmUECmrW7RVj6mDWKjTXfKug7TFGdiz9P18HMcO4RHL+RW7MCOGNvpj5j47Rnp6ne6r4fZ2VzyUWEpKbg+tsjQ=="
+    },
+    "node_modules/readable-stream": {
+      "version": "2.1.5",
+      "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.1.5.tgz",
+      "integrity": "sha512-NkXT2AER7VKXeXtJNSaWLpWIhmtSE3K2PguaLEeWr4JILghcIKqoLt1A3wHrnpDC5+ekf8gfk1GKWkFXe4odMw==",
+      "dependencies": {
+        "buffer-shims": "^1.0.0",
+        "core-util-is": "~1.0.0",
+        "inherits": "~2.0.1",
+        "isarray": "~1.0.0",
+        "process-nextick-args": "~1.0.6",
+        "string_decoder": "~0.10.x",
+        "util-deprecate": "~1.0.1"
+      }
+    },
+    "node_modules/resolve-from": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz",
+      "integrity": "sha512-qpFcKaXsq8+oRoLilkwyc7zHGF5i9Q2/25NIgLQQ/+VVv9rU4qvr6nXVAw1DsnXJyQkZsR4Ytfbtg5ehfcUssQ==",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/sigmund": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/sigmund/-/sigmund-1.0.1.tgz",
+      "integrity": "sha512-fCvEXfh6NWpm+YSuY2bpXb/VIihqWA6hLsgboC+0nl71Q7N7o2eaCW8mJa/NLvQhs6jpd3VZV4UiUQlV6+lc8g=="
+    },
+    "node_modules/string_decoder": {
+      "version": "0.10.31",
+      "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
+      "integrity": "sha512-ev2QzSzWPYmy9GuqfIVildA4OdcGLeFZQrq5ys6RtiuF+RQQiZWr8TZNyAcuVXyQRYfEO+MsoB/1BuQVhOJuoQ=="
+    },
+    "node_modules/tapable": {
+      "version": "0.2.4",
+      "resolved": "https://registry.npmjs.org/tapable/-/tapable-0.2.4.tgz",
+      "integrity": "sha512-C4ZWbMZw4ZTumxBBDmHpppGNL7ZFfwQ+wNDAa/AsmaWt19u+FnkFCjJ5bPv5irLaVKOvm4X1j9xKFjIwXshGUQ==",
+      "engines": {
+        "node": ">=0.6"
+      }
+    },
+    "node_modules/tern": {
+      "version": "0.20.0",
+      "resolved": "https://registry.npmjs.org/tern/-/tern-0.20.0.tgz",
+      "integrity": "sha512-5kY4YCjCtLAIoECAG7Z6jUOA5PVLLyeH8P5LEXcMP3VEDJ5Bx4m6Cjvx2ObRRbWRwvP6lXkHzMgCAXFn4ljO6A==",
+      "dependencies": {
+        "acorn": "^3.2.0",
+        "enhanced-resolve": "^2.2.2",
+        "glob": "3",
+        "minimatch": "0.2",
+        "resolve-from": "2.0.0"
+      },
+      "bin": {
+        "tern": "bin/tern"
+      }
+    },
+    "node_modules/util-deprecate": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+      "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
+    }
+  }
+}

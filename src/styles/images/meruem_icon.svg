@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Meruem">
+  <!-- Meruem app icon: brackets forming an M, teal + amber spark -->
+  <defs>
+    <linearGradient id="meruemFrame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3AA89B"/>
+      <stop offset="100%" stop-color="#2F8F84"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="22" fill="#1A1F28"/>
+  <rect x="8" y="8" width="104" height="104" rx="22" fill="none" stroke="url(#meruemFrame)" stroke-width="4"/>
+  <!-- Left bracket -->
+  <path fill="#2F8F84" d="M38 30h18v10H48v40h8v10H38V30z"/>
+  <!-- Right bracket -->
+  <path fill="#2F8F84" d="M64 30h18v60H64V80h8V40h-8V30z"/>
+  <!-- Amber spark (AI accent) -->
+  <rect x="54" y="54" width="12" height="4" rx="2" fill="#E8A23A"/>
+</svg>

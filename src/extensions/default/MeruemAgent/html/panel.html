@@ -1,0 +1,35 @@
+<div id="meruem-agent-panel" class="bottom-panel vert-resizable top-resizer meruem-agent-panel">
+    <div class="toolbar simple-toolbar-layout">
+        <div class="title">Meruem Agent</div>
+        <div class="meruem-agent-toolbar-actions">
+            <span class="meruem-agent-status" id="meruem-agent-status">Hors ligne · LLM local à brancher</span>
+        </div>
+        <button type="button" class="btn quiet" id="meruem-agent-settings" title="Configurer le LLM local">LLM…</button>
+        <button type="button" class="btn quiet meruem-agent-clear" id="meruem-agent-clear" title="Effacer la conversation">Effacer</button>
+        <a href="#" class="close" id="meruem-agent-close">&times;</a>
+    </div>
+    <div class="meruem-agent-body resizable-content">
+        <div class="meruem-agent-messages" id="meruem-agent-messages" role="log" aria-live="polite">
+            <div class="meruem-agent-msg meruem-agent-msg-system">
+                Tools: list_dir, read_file, search_text, write_file (Accept/Reject).
+                <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd> · bouton LLM… pour Ollama / LM Studio.
+            </div>
+        </div>
+        <div class="meruem-agent-patch" id="meruem-agent-patch" hidden>
+            <div class="meruem-agent-patch-head">
+                <span class="meruem-agent-patch-title">Patch proposé</span>
+                <code id="meruem-agent-patch-path"></code>
+                <span class="meruem-agent-patch-actions">
+                    <button type="button" class="btn primary" id="meruem-agent-patch-accept">Accept</button>
+                    <button type="button" class="btn" id="meruem-agent-patch-reject">Reject</button>
+                </span>
+            </div>
+            <pre class="meruem-agent-patch-preview" id="meruem-agent-patch-preview"></pre>
+        </div>
+        <div class="meruem-agent-input-row">
+            <textarea id="meruem-agent-input" class="meruem-agent-input" rows="2"
+                placeholder="Parler à Meruem Agent…"></textarea>
+            <button id="meruem-agent-send" class="btn primary" type="button">Envoyer</button>
+        </div>
+    </div>
+</div>

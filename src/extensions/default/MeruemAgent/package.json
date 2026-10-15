@@ -1,0 +1,14 @@
+{
+    "name": "meruem-agent",
+    "title": "Meruem Agent",
+    "description": "Local-first AI agent companion for Meruem (Brackets UI).",
+    "version": "0.1.0",
+    "engines": {
+        "brackets": ">=1.14.0"
+    },
+    "homepage": "https://github.com/adobe/brackets",
+    "author": "Meruem",
+    "license": "MIT",
+    "categories": "editing",
+    "keywords": ["ai", "agent", "ollama", "lm-studio", "meruem"]
+}

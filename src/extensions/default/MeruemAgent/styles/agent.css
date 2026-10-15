@@ -1,0 +1,194 @@
+/* Meruem Agent — Brackets bottom panel, brand accents */
+.meruem-agent-panel .toolbar.simple-toolbar-layout {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.meruem-agent-panel .meruem-agent-toolbar-actions {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.meruem-agent-panel .meruem-agent-status {
+    font-size: 11px;
+    color: #2F8F84;
+    white-space: nowrap;
+}
+
+.meruem-agent-panel .meruem-agent-clear {
+    font-size: 11px;
+    margin-right: 4px;
+}
+
+.meruem-agent-panel .meruem-agent-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 140px;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1A1F28;
+}
+
+.meruem-agent-panel .meruem-agent-messages {
+    flex: 1;
+    overflow: auto;
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.meruem-agent-panel .meruem-agent-msg {
+    max-width: 92%;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    line-height: 1.45;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.meruem-agent-panel .meruem-agent-msg-system {
+    max-width: 100%;
+    color: #8a9099;
+    background: transparent;
+    padding: 4px 0;
+}
+
+.meruem-agent-panel .meruem-agent-msg-system kbd {
+    display: inline-block;
+    padding: 1px 5px;
+    border: 1px solid #3a414d;
+    border-radius: 3px;
+    background: #252a33;
+    font-size: 11px;
+    color: #E8A23A;
+}
+
+.meruem-agent-panel .meruem-agent-msg-user {
+    align-self: flex-end;
+    background: #243530;
+    border: 1px solid #2F8F84;
+    color: #e8eeea;
+}
+
+.meruem-agent-panel .meruem-agent-msg-assistant {
+    align-self: flex-start;
+    background: #252a33;
+    border: 1px solid #3a414d;
+    color: #d8dde6;
+}
+
+.meruem-agent-panel .meruem-agent-msg-assistant .meruem-agent-role {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #E8A23A;
+    margin-bottom: 4px;
+}
+
+.meruem-agent-panel .meruem-agent-input-row {
+    display: flex;
+    gap: 8px;
+    align-items: flex-end;
+    padding: 8px 12px 10px;
+    border-top: 1px solid #2a303a;
+    background: #151a22;
+}
+
+.meruem-agent-panel .meruem-agent-input {
+    flex: 1;
+    resize: vertical;
+    min-height: 40px;
+    max-height: 120px;
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1.35;
+    padding: 6px 8px;
+    border: 1px solid #3a414d;
+    border-radius: 3px;
+    background: #12161c;
+    color: #d8dde6;
+}
+
+.meruem-agent-panel .meruem-agent-input:focus {
+    outline: none;
+    border-color: #2F8F84;
+}
+
+.meruem-agent-panel #meruem-agent-send.btn.primary {
+    background: #2F8F84;
+    border-color: #267a71;
+    color: #fff;
+    min-width: 88px;
+}
+
+.meruem-agent-panel #meruem-agent-send.btn.primary:disabled {
+    opacity: 0.45;
+}
+
+.meruem-agent-panel .meruem-agent-msg-tool {
+    align-self: stretch;
+    max-width: 100%;
+    background: transparent;
+    border: 1px dashed #3a414d;
+    color: #8a9099;
+    font-size: 11px;
+    padding: 4px 8px;
+}
+
+.meruem-agent-panel .meruem-agent-patch {
+    border-top: 1px solid #2F8F84;
+    background: #151a22;
+    max-height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.meruem-agent-panel .meruem-agent-patch[hidden] {
+    display: none !important;
+}
+
+.meruem-agent-panel .meruem-agent-patch-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    flex-wrap: wrap;
+}
+
+.meruem-agent-panel .meruem-agent-patch-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #E8A23A;
+}
+
+.meruem-agent-panel .meruem-agent-patch-head code {
+    flex: 1;
+    font-size: 12px;
+    color: #d8dde6;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.meruem-agent-panel .meruem-agent-patch-actions {
+    display: flex;
+    gap: 6px;
+}
+
+.meruem-agent-panel .meruem-agent-patch-preview {
+    margin: 0;
+    padding: 0 10px 8px;
+    overflow: auto;
+    font-size: 11px;
+    line-height: 1.35;
+    color: #b8c0cc;
+    white-space: pre-wrap;
+    max-height: 110px;
+}
